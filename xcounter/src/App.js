@@ -14,10 +14,14 @@ function App() {
 
   return (
     <div>
-      <h1>Counter App</h1>
-      <p>Count: {count}</p>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
+     
+      <h1 style={{ textAlign: "center" }}>Counter App</h1>
+      <p style={{ textAlign: "center" }}>Count: {count}</p>
+      
+      <div style={{ textAlign: "center" }}>
+        <button onClick={increment}>Increment</button>
+        <button onClick={decrement}>Decrement</button>
+      </div>
     </div>
   );
 }

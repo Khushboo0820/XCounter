@@ -1,0 +1,14 @@
+.App {
+ 
+  margin: 50px 0px 0px 50px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+
+}
+.heading{
+  text-align: center;
+}
